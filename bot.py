@@ -5,11 +5,12 @@ import google.generativeai as genai
 from discord.ext import commands
 import aiohttp
 import traceback
+import os
 from config import *
 from discord import app_commands
 from typing import Optional, Dict, List
 import shelve
-
+DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 #---------------------------------------------AI Configuration-------------------------------------------------
