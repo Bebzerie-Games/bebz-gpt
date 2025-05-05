@@ -1,0 +1,12 @@
+config.py
+.env
+
+
+__pycache__/
+*.pyc
+
+
+chatdata.db
+chatdata.db.dat
+chatdata.db.bak
+chatdata.db.dir
