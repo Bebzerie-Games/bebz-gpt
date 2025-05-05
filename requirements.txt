@@ -46,7 +46,6 @@ pydantic_core==2.33.2
 pyparsing==3.1.1
 pystyle==2.9
 python-dotenv==1.1.0
-pythonnet==3.0.3
 pytz==2024.1
 pywebview==3.7.2
 requests==2.31.0
